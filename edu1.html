@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        /* Universal */
+        * {
+            padding: 0px;
+            margin: 0px 0px;
+            box-sizing: border-box;
+        }
+
+        /* Naviagation bar  */
+        .navbar {
+            background-color: rgb(83, 71, 174);
+            border-radius: 20px;
+            margin: 2vh 30vh;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: 15px;
+            
+        }
+
+        /* Items of nav bar */
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 6px 20px;
+            margin: 15px 25px;
+            border: 2px solid black;
+            box-shadow: 5px solid red;
+        }
+
+        /* Content inside items of nav bar */
+        .navbar li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+        }
+
+        /* hover for item block */
+        li:hover {
+            background-color: rosybrown;
+
+        }
+
+        /* elements on right side of nav bar  */
+        .searchbox {
+            float: right;
+            margin: 15px 60px;
+            padding: 4px 10px;
+
+        }
+
+        /* search box  */
+        .navbar input {
+            padding: 5px 25px;
+            border-radius: 15px;
+        }
+
+        /* button for search */
+        .navbar button {
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+
+        .container {
+            border: 2px solid black;
+            padding: 5px 5px;
+            display: inline-block;
+            width: -webkit-fill-available;
+            margin: auto 30vh;
+            background-image: url(rits/edutech.jpg);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 320px 150px;
+            background-color: rgb(109, 142, 241);   
+        }
+
+        .box{
+            border: 2px solid black;
+            background-color: rgb(109, 255, 240);
+            border-top-right-radius: 200px;
+            border-bottom-left-radius: 25px;
+            float: left;
+            padding: 5px 10px;
+            margin: 4% 10% 1% 4%
+            
+        }
+
+    </Style>
+
+</head>
+
+<body>
+    <Header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Edutech</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="searchbox">
+                    <input type="text" name="search" id="searchbar" placeholder="Search">
+                    <button>Search</button>
+                </div>
+            </ul>
+        </nav>
+    </Header>
+
+    <div class="container">
+        <div class="box">
+            <h2> Python course</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Exercise</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Live Projects</h2>
+            <p>Get access to full course hear</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2> Java course</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Exercise</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Live Projects</h2>
+            <p>Get access to full course hear</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2> Python course</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Exercise</h2>
+            <p>Get access to full course hear</p>
+        </div>
+        <div class="box">
+            <h2>Live Projects</h2>
+            <p>Get access to full course hear</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
